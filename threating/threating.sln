@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "threading", "threading.csproj", "{DAC63D14-7A3B-41F6-B616-E32BA5C40B8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClass", "..\PartialClass\PartialClass.csproj", "{EB34D998-0AF2-4638-A770-AA8A082D5254}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAC63D14-7A3B-41F6-B616-E32BA5C40B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC63D14-7A3B-41F6-B616-E32BA5C40B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC63D14-7A3B-41F6-B616-E32BA5C40B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC63D14-7A3B-41F6-B616-E32BA5C40B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB34D998-0AF2-4638-A770-AA8A082D5254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB34D998-0AF2-4638-A770-AA8A082D5254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB34D998-0AF2-4638-A770-AA8A082D5254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB34D998-0AF2-4638-A770-AA8A082D5254}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62090EBD-2934-40BF-A2EE-D18368B16E09}
+	EndGlobalSection
+EndGlobal

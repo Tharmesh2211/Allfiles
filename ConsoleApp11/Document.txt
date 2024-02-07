@@ -1,0 +1,64 @@
+﻿
+
+Question : 
+
+Imagine you are developing a console application for a school management system. 
+
+Implement a simple CRUD system to manage a list of students assigned to a teacher. 
+
+Each student should have a name, roll number ,gender, date of birth, address and grade.
+ 
+Create a Student: Allow the teacher to input a student's name, roll number, gender, date of birth, 
+address and grade, and add each Student in the List .
+ 
+Read All Students: Display a list of all students assigned to the teacher with their names, roll numbers,
+and grades.
+ 
+Read Student by Roll Number: Prompt the teacher to enter the roll number of a student and display the details 
+of that specific student.
+ 
+Update Student Grade: Prompt the teacher to enter the roll number of a student whose grade they want to update. 
+If the student exists, allow the teacher to update the student's grade.
+ 
+Delete Student: Prompt the teacher to enter the roll number of a student to be removed from the list.
+ 
+Exit the Program: Provide an option to exit the program.
+ 
+Use a class to represent a student, and store the students in a list assigned to a specific teacher. 
+Ensure that the program handles user input gracefully, providing appropriate messages for success or failure.
+
+Step 1 : Create Classes For the Program
+
+		Teacher class : Contains Teacher Properties (Teacher ID, Teacher Name).
+		Here Teacher ID act as a Primary Key.
+		
+		Student class : Contains Student Properties (RollNo, Name, DOB, etc).
+		Additionally you add Teacher ID (Property) for Student class, 
+		Because Teacher can easily identify their student when you have your Teacher ID. 
+		
+		Here Teacher ID act as a Foreign Key.
+		
+Step 2 : Create Interface For Both Student and Teacher class.
+
+		These interface Contains only CRUD Methods.
+		
+		Interface Name : IStudent, ITeacher
+		Istudent Methods(CreateStudent, ReadStudent, UpdateStudent, DeleteStudent).
+		ITeacher Methods(CreateTeacher, ReadTeacher, UpdateTeacher, DeleteTeacher).
+		
+Step 3 : Write some Logics for Both Student and Teacher Seperately.
+		
+		Create Two Class Called StudentList and TeacherList.
+		
+		StudentList class inherites IStudent interface.
+		TeacherList class inherites ITeacher interface.
+		
+		After that write your logics inside the methods which you have inherited from your interface.
+		
+step 4 : Create One more class and Interface called TeacherStudent and ITeacherStudent(CRUD methods).
+		
+		Inside the TeacherStudent class you should combine the class StudentList and TeacherList.
+		Here only you should do the real CRUD Operation.
+		
+Step 5 : Inside the Main Class Create a instance for TeacherStudent class.
+		After that call the Methods you want.

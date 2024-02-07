@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency injection", "Dependency injection.csproj", "{9BC2092D-CF9F-40FF-A13E-C67C9398FFB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railway Ticket Booking", "..\Railway Ticket Booking\Railway Ticket Booking.csproj", "{681FB838-5770-4684-A5CF-1D35F6FBCBB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BC2092D-CF9F-40FF-A13E-C67C9398FFB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC2092D-CF9F-40FF-A13E-C67C9398FFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC2092D-CF9F-40FF-A13E-C67C9398FFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC2092D-CF9F-40FF-A13E-C67C9398FFB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681FB838-5770-4684-A5CF-1D35F6FBCBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681FB838-5770-4684-A5CF-1D35F6FBCBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681FB838-5770-4684-A5CF-1D35F6FBCBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681FB838-5770-4684-A5CF-1D35F6FBCBB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DE91218-2CF8-4ADA-B3FF-E9DC18A9E46F}
+	EndGlobalSection
+EndGlobal
